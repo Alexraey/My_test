@@ -1,0 +1,321 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Medium.eot');
+    src: url('../fonts/Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto-Medium.woff2') format('woff2'),
+    url('../fonts/Roboto-Medium.woff') format('woff'),
+    url('../fonts/Roboto-Medium.ttf') format('truetype'),
+    url('../fonts/Roboto-Medium.svg#Roboto-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Gothic A1';
+    src: url('../fonts/GothicA1-Regular.eot');
+    src: url('../fonts/GothicA1-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GothicA1-Regular.woff2') format('woff2'),
+    url('../fonts/GothicA1-Regular.woff') format('woff'),
+    url('../fonts/GothicA1-Regular.ttf') format('truetype'),
+    url('../fonts/GothicA1-Regular.svg#GothicA1-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+header{
+    background-color: darkslategray;
+}
+
+.container{
+    max-width: 1110px;
+    margin: auto;
+}
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.s-list{
+    display: flex;
+    list-style: none;
+}
+.indent-li{
+    margin: 0 10px;
+}
+.s-menu{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.s-page1{
+   background-size: cover;
+    height: 100vh;
+    padding-top: 170px;
+}
+section h1{
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 130%;
+    color: #FFFFFF;
+    text-shadow: 0 0 166px #000000;
+    margin: 30px 0;
+}
+.discount{
+    background: #FFFFFF;
+    max-width: 512px;
+    opacity: 0.9;
+    border-radius: 20px;
+    margin: 0 0 99px
+}
+.picture1{
+    margin: 45px 0 42px 33px
+}
+.sp1{
+    font-weight: 500;
+    max-width: 374px;
+    font-size: 20px;
+    line-height: 150%;
+    color: #000000;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0 28px;
+}
+.linkb{
+    background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);
+    box-shadow: 0 0 166px rgba(0, 0, 0, 0.2), 8px 8px 109px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    padding: 20px 49px;
+}
+.order{
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+.s-page2{
+    padding: 20px 0 160px
+}
+.conp2{
+    max-width: 385px
+}
+.about{
+    margin-bottom: 60px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    color: #000000;
+    font-family: 'Gothic A1';
+}
+.aboutp{
+    margin-bottom: 30px;
+    font-size: 20px;
+    line-height: 150%;
+    color: #000000;
+}
+.aboutp2{
+    font-size: 20px;
+    line-height: 150%;
+    color: #000000;
+}
+
+
+
+
+
+
+
+.s-page4{
+    padding: 20px 0 200px
+}
+.bubbles{
+    display: block;
+    width: 100%;
+    margin-bottom: 202px
+}
+.fcon1{
+    max-width: 410px
+}
+.discus{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 30px 0;
+}
+.fcon2{
+    max-width: 392px;
+    margin-bottom: 40px;
+}
+.fcon3{
+    max-width: 392px;
+    margin-bottom: 60px;
+}
+.conp4{
+    max-width: 616px
+}
+section form input{
+    width: 100%;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 16px;
+    color: #000000;
+    opacity: 0.5;
+    padding: 5px 0;
+    border: none;
+    border-bottom: solid 1px black;
+}
+section form textarea{
+    height: 16px;
+    resize: none;
+    width: 100%;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 16px;
+    color: #000000;
+    opacity: 0.5;
+    padding: 5px 0;
+    border: none;
+    border-bottom: solid 1px black;
+}
+section form button{
+    background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);
+    box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    padding: 20px 51px;
+    border: none;
+}
+.d-block{
+    display: block;
+    width: 100%
+}
+
+.s-page5{
+    padding: 30px 0 177px;
+
+}
+.s-page5 img{
+    display: block;
+    width: 100%;
+    margin-bottom: 157px
+}
+.s-page5 h3{
+    font-family: 'Gothic A1';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    color: #373737;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0 432px 50px;
+}
+.s-page5 div{
+    max-width: 1110px;
+    margin: auto;
+    display: flex;
+
+
+}
+.s-page5 div div{
+    margin: 0 0 80px;
+    max-width: 540px;
+    display: block;
+}
+.s-page5 div div img{
+    margin-bottom: 20px;
+}
+.s-page5 div div h4{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #373737;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0;
+}
+.s-page5 div div p{
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: #373737;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 10px 0;
+}
+.s-page5 a{
+    padding: 20px 68px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);
+    box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.s-page6{
+    padding: 30px 0 150px;
+}
+.s-page6 img{
+    display: block;
+    width: 100%;
+    margin-bottom: 150px
+}
+
+.s-page6 h3{
+    font-family: 'Gothic A1';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    color: #373737;
+    margin: 0 0 52px 100px;
+
+}
+.s-page6 h4{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #373737;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0;
+}
+
+
+.s-page6 div div{
+    display: block;
+}
