@@ -319,3 +319,8 @@ section form button{
 .s-page6 div div{
     display: block;
 }
+.blue_buble{
+    background-color: #4C6071;
+    background-image: url(../images/why_us_background.svg);
+    background-size: cover;
+}
