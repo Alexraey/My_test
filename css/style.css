@@ -551,6 +551,24 @@ footer{
     list-style: none;
 }
 
-
-
+.owl-nav .owl-prev:after{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f060";
+    color: #FFFFFF;
+    margin-right: 40px;
+    font-size: 23px;
+}
+.owl-nav .owl-next:after{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f061";
+    color: #FFFFFF;
+    font-size: 23px;
+}
+.owl-nav{
+    position: absolute;
+    top: -90px;
+    right: 100px;
+}
 
