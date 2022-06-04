@@ -1,0 +1,109 @@
+@media only screen and (max-width: 390px) {
+    /*header .d-flex{
+        display: inherit;
+    }*/
+    /*header .container img{
+        margin-left: -35px;
+    }*/
+    header nav{
+        display: none;
+    }
+    header ul{
+        margin-top: -33px;
+        margin-right: 18px;
+    }
+    .s-page1{
+        padding-top: 100px;
+    }
+    .s-page1 .container{
+        margin: 0 10px;
+    }
+    .s-list{
+        display: block;
+    }
+    .s-page2{
+        padding: 30px 0;
+    }
+    .bubbles{
+        margin-bottom: 35px;
+    }
+    .s-page2 .d-flex{
+        display: block;
+        margin: 0 10px;
+    }
+    .conp2{
+        margin-bottom: 20px;
+    }
+    .s-page2_cont_img{
+        position: inherit;
+        right: 0;
+    }
+    .s-page3{
+        padding: 60px 0 30px;
+    }
+    .s-page3 .s-page3_flex{
+        display: block;
+        margin: 0 10px;
+    }
+    .s-page3_container{
+        max-width: 390px;
+    }
+    .s-page3_container img{
+        margin: 35px 149px;
+    }
+    .s-page4{
+        padding: 30px 0;
+    }
+    .s-page4 .d-flex{
+        display: block;
+        margin: 0 10px;
+    }
+    .s-page4 img{
+        margin-bottom: 35px;
+    }
+    .s-page5{
+        padding: 30px 0;
+    }
+    .s-page5_catalog{
+        margin: 0 10px;
+    }
+    .container_catalog{
+        max-width: 170px;
+    }
+    .s-page5 img{
+        margin-bottom: 55px;
+    }
+    .s-page6{
+        max-width: 390px;
+    }
+    .s-page6 .container{
+        margin: 0 10px;
+    }
+    .videos_container{
+        max-width: 390px;
+    }
+    .s-page7{
+        padding: 30px 0;
+    }
+    .s-page7 .d-flex{
+        display: block;
+        margin: 0 10px;
+    }
+    .s-page7 form{
+        margin-bottom: 30px;
+    }
+    footer .container{
+        display: block;
+        margin: 0 10px;
+    }
+    .footer_container1{
+        margin-bottom: 30px;
+    }
+    .footer_container2{
+        margin-bottom: 30px;
+    }
+    .owl-nav{
+        top: -60px;
+        right: 143px;
+    }
+}
